@@ -1,9 +1,10 @@
-# robots.txt for sloopautos.online
+# robots.txt for schadeautos.online
 User-agent: *
 Allow: /
+Disallow: /api/
 
 # Sitemaps
-Sitemap: https://sloopautos.online/sitemap.xml
+Sitemap: https://schadeautos.online/sitemap.xml
 
 # Rate limiting
 Crawl-delay: 1 

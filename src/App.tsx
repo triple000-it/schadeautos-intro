@@ -58,10 +58,10 @@ function App() {
           <div className="logo-section">
             <div className="logo">
               <div className="logo-icon">
-                <img src="/logo.png" alt="Sloopautos.online Logo" />
+                <img src="/logo.png" alt="Schadeautos.online Logo" />
               </div>
               <div className="logo-text">
-                <h1>Sloopautos.online</h1>
+                <h1>Schadeautos.online</h1>
                 <p>Professionele handel in schade- en sloopauto's</p>
               </div>
             </div>
@@ -73,7 +73,7 @@ function App() {
               </svg>
               <span>WhatsApp</span>
             </a>
-                          <a href="mailto:info@sloopautos.online" className="email-button">
+                          <a href="mailto:info@schadeautos.online" className="email-button">
                 <svg fill="currentColor" width="20" height="20" viewBox="0 0 24 24">
                   <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                 </svg>
@@ -145,10 +145,10 @@ function App() {
         <div className="container">
           <div className="footer-logo">
             <div className="logo-icon">
-              <img src="/logo.png" alt="Sloopautos.online Logo" />
+              <img src="/logo.png" alt="Schadeautos.online Logo" />
             </div>
             <div className="logo-text">
-                <h1>Sloopautos.online</h1>
+                <h1>Schadeautos.online</h1>
                 <p>Professionele handel in schade- en sloopauto's</p>
               </div>
           </div>
