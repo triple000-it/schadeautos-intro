@@ -58,7 +58,7 @@ function App() {
           <div className="logo-section">
             <div className="logo">
               <div className="logo-icon">
-                <img src="/logo.png" alt="Schadeautos.online Logo" />
+                <img src="/logo-transparent.png" alt="Schadeautos.online Logo" />
               </div>
               <div className="logo-text">
                 <h1>Schadeautos.online</h1>
@@ -144,8 +144,8 @@ function App() {
       <footer className="footer">
         <div className="container">
           <div className="footer-logo">
-            <div className="logo-icon">
-              <img src="/logo.png" alt="Schadeautos.online Logo" />
+            <div className="logo-icon footer-white-logo">
+              <img src="/logo-transparent.png" alt="Schadeautos.online Logo" />
             </div>
             <div className="logo-text">
                 <h1>Schadeautos.online</h1>
