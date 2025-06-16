@@ -127,24 +127,27 @@ body {
 
 /* --- WhatsApp & Email Button: Solid Color, No Border by Default --- */
 .whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.8rem 1.5rem;
   background-color: #2c5765;
   color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
   border: none;
-  box-shadow: 0 2px 4px rgba(44, 87, 101, 0.08);
+  box-shadow: none;
 }
 
 .whatsapp-button svg {
   flex-shrink: 0;
-  width: 24px;
-  height: 24px;
 }
 
 .whatsapp-button:hover {
-  background-color: white;
-  color: #2c5765;
-  border-color: #2c5765;
-  box-shadow: 0 4px 8px rgba(44, 87, 101, 0.2);
-  transform: translateY(-2px);
+  background-color: #22434f;
+  color: #fff;
 }
 
 .whatsapp-button span {
@@ -153,23 +156,27 @@ body {
 }
 
 .email-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.8rem 1.5rem;
   background-color: #3c2774;
   color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
   border: none;
-  box-shadow: 0 2px 4px rgba(60, 39, 116, 0.08);
+  box-shadow: none;
 }
 
 .email-button svg {
   flex-shrink: 0;
-  width: 24px;
-  height: 24px;
 }
 
 .email-button:hover {
-  background-color: #fff;
-  color: #3c2774;
-  box-shadow: 0 4px 8px rgba(60, 39, 116, 0.2);
-  transform: translateY(-2px);
+  background-color: #2a205c;
+  color: #fff;
 }
 
 .email-button span {
