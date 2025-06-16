@@ -125,19 +125,12 @@ body {
   font-size: clamp(0.9rem, 2vw, 1rem);
 }
 
+/* --- WhatsApp & Email Button: Solid Color, No Border by Default --- */
 .whatsapp-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 0.8rem 1.5rem;
   background-color: #2c5765;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  border: 1px solid transparent;
-  box-shadow: 0 2px 4px rgba(44, 87, 101, 0.1);
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(44, 87, 101, 0.08);
 }
 
 .whatsapp-button svg {
@@ -160,18 +153,10 @@ body {
 }
 
 .email-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 0.8rem 1.5rem;
-  background-color: white;
-  color: #3c2774;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  border: 1px solid #3c2774;
-  box-shadow: 0 2px 4px rgba(60, 39, 116, 0.1);
+  background-color: #3c2774;
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(60, 39, 116, 0.08);
 }
 
 .email-button svg {
@@ -181,8 +166,8 @@ body {
 }
 
 .email-button:hover {
-  background-color: #3c2774;
-  color: white;
+  background-color: #fff;
+  color: #3c2774;
   box-shadow: 0 4px 8px rgba(60, 39, 116, 0.2);
   transform: translateY(-2px);
 }
@@ -1691,4 +1676,29 @@ img {
   -moz-user-drag: none;
   -o-user-drag: none;
   user-drag: none;
+}
+
+/* --- Desktop Hover: Invert Color, Show Border --- */
+@media (hover: hover) and (pointer: fine) {
+  .whatsapp-button:hover {
+    background-color: #fff;
+    color: #2c5765;
+    border: 1.5px solid #2c5765;
+    box-shadow: 0 4px 12px rgba(44, 87, 101, 0.12);
+  }
+  .email-button:hover {
+    background-color: #fff;
+    color: #3c2774;
+    border: 1.5px solid #3c2774;
+    box-shadow: 0 4px 12px rgba(60, 39, 116, 0.12);
+  }
+}
+
+/* --- Remove Border on Mobile/Tablet (No hover) --- */
+@media (max-width: 1024px) {
+  .whatsapp-button,
+  .email-button {
+    border: none !important;
+    background-clip: border-box;
+  }
 }
