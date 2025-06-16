@@ -1026,193 +1026,77 @@ footer {
     max-width: 100%;
   }
   
-  .header {
-    padding: 1rem 0;
-  }
-  
   .header .container {
     flex-direction: column;
-    gap: 1rem;
-    text-align: center;
+    align-items: center;
+    padding: 1rem 0;
   }
-  
-  .whatsapp-button,
-  .email-button {
-    width: 100%;
+  .logo-icon {
+    margin-bottom: 0.5rem;
+    display: flex;
     justify-content: center;
-    padding: 0.8rem 1rem;
-    margin-bottom: 0.8rem;
-  }
-
-  .whatsapp-button svg,
-  .email-button svg {
-    width: 20px;
-    height: 20px;
-  }
-
-  .whatsapp-button span,
-  .email-button span {
-    font-size: 0.95rem;
-  }
-  
-  .logo-text h1 {
-    font-size: clamp(1.3rem, 6vw, 1.6rem);
-  }
-  
-  .logo-text p {
-    font-size: clamp(0.8rem, 3vw, 0.95rem);
-  }
-  
-  .contact-info {
-    flex-direction: column;
-    gap: 0.8rem;
-    justify-content: center;
-  }
-  
-  .contact-info span {
-    font-size: clamp(0.85rem, 3vw, 0.95rem);
-    padding: 0.5rem;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-  
-  .hero {
-    padding: 0.5rem 0;
-    min-height: 40vh;
-  }
-  
-  .hero-title {
-    font-size: clamp(1.8rem, 10vw, 2.5rem);
-    margin-bottom: 1rem;
-    line-height: 1.2;
-  }
-  
-  .hero-subtitle {
-    font-size: clamp(0.95rem, 4vw, 1.2rem);
-    margin-bottom: 2rem;
-    line-height: 1.6;
-    padding: 0 0.5rem;
-  }
-  
-  .stats {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    margin-top: 2rem;
-  }
-  
-  .stat {
-    padding: 1.5rem 1rem;
-  }
-  
-  .stat h3 {
-    font-size: clamp(1.8rem, 8vw, 2.2rem);
-  }
-  
-  .stat p {
-    font-size: clamp(0.9rem, 3vw, 1rem);
-  }
-  
-  .service-cards {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  
-  .service-card {
-    padding: 1.5rem;
-    border-radius: 15px;
-  }
-  
-  .service-card h2 {
-    font-size: clamp(1.4rem, 6vw, 1.8rem);
-    margin-bottom: 1rem;
-  }
-  
-  .service-card p {
-    font-size: clamp(0.95rem, 3vw, 1.1rem);
-    margin-bottom: 1.5rem;
-  }
-  
-  .service-card li {
-    font-size: clamp(0.9rem, 3vw, 1rem);
-    margin-bottom: 0.8rem;
-    padding-left: 1rem;
-  }
-  
-  .service-icon,
-  .feature-icon,
-  .contact-icon {
-    font-size: clamp(2rem, 8vw, 2.5rem);
-    padding: 0.8rem;
-  }
-  
-  .features {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  
-  .feature {
-    padding: 1.5rem;
-    border-radius: 15px;
-  }
-  
-  .feature h3 {
-    font-size: clamp(1.3rem, 5vw, 1.6rem);
-    margin-bottom: 1rem;
-  }
-  
-  .feature p {
-    font-size: clamp(0.95rem, 3vw, 1.1rem);
-    line-height: 1.7;
-  }
-  
-  .contact-cards {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  
-  .contact-card {
-    padding: 1.5rem;
-    border-radius: 15px;
-  }
-  
-  .contact-card h3 {
-    font-size: clamp(1.3rem, 5vw, 1.6rem);
-    margin-bottom: 1rem;
-  }
-  
-  .contact-card p {
-    font-size: clamp(1rem, 4vw, 1.2rem);
-    font-weight: 600;
-  }
-  
-  .footer-logo {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .footer-logo .logo-icon {
     width: 55px;
     height: 55px;
   }
-  
-  .footer-logo span {
-    font-size: clamp(1.2rem, 5vw, 1.5rem);
+  .contact-info {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+    margin-top: 0.5rem;
+    align-items: center;
   }
-  
-  .footer > p {
-    font-size: clamp(0.95rem, 3vw, 1.1rem);
-    padding: 0 1rem;
+  .whatsapp-button,
+  .email-button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    padding: 0.9rem 0;
+    border-radius: 8px;
+    box-shadow: none;
+    justify-content: center;
   }
-  
-  /* Section spacing for mobile */
-  .services,
-  .why-choose-us,
-  .contact {
-    padding: clamp(2.5rem, 8vw, 3.5rem) 0;
+  .hero-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
   }
-  
-  .footer {
-    padding: clamp(2.5rem, 6vw, 3rem) 0 clamp(1.5rem, 4vw, 2rem);
+  .hero-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+    text-align: center;
+  }
+  .service-cards {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    padding: 0 0.5rem;
+  }
+  .service-card {
+    padding: 1.2rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+  }
+  .cta-button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.9rem 0;
+    border-radius: 8px;
+    box-shadow: none;
+    margin: 0 auto;
+    display: block;
+  }
+  .footer-logo {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  .footer-white-logo img {
+    width: 55px;
+    height: 55px;
+  }
+  .footer-bottom {
+    text-align: center;
+    padding: 1rem 0;
   }
 }
 
