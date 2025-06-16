@@ -58,10 +58,10 @@ function App() {
           <div className="logo-section">
             <div className="logo">
               <div className="logo-icon">
-                <img src="/logo-transparent.png" alt="Sloopautos.online Logo" />
+                <img src="/logo-transparent.png" alt="Schadeautos.online Logo" />
               </div>
               <div className="logo-text">
-                <h1>Sloopautos.online</h1>
+                <h1>Schadeautos.online</h1>
                 <p>Professionele handel in schade- en sloopauto's</p>
               </div>
             </div>
@@ -143,10 +143,10 @@ function App() {
         <div className="container">
           <div className="footer-logo">
             <div className="logo-icon">
-              <img src="/logo-transparent.png" alt="Sloopautos.online Logo" className="footer-logo-white" />
+              <img src="/logo-transparent.png" alt="Schadeautos.online Logo" className="footer-logo-white" />
             </div>
             <div className="logo-text">
-                <h1>Sloopautos.online</h1>
+                <h1>Schadeautos.online</h1>
                 <p>Professionele handel in schade- en sloopauto's</p>
               </div>
           </div>
